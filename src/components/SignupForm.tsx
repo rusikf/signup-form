@@ -1,9 +1,8 @@
 import React from 'react'
-import '../SignupForm.css';
 import { ReactComponent as GoogleLogo } from '../images/google-logo.svg'
 
 export const SignupForm:React.FC = () => {
-  return <div className='container'>
+  return (
     <div className='signup-form'>
       <div className='signup-form__title'><h1>Sign up</h1></div>
       
@@ -48,6 +47,5 @@ export const SignupForm:React.FC = () => {
           <input type='button' className={ true ? 'btn btn-primary' : 'btn btn-primary_disabled' } value='Sign up'></input>
           </div>  
       </form>
-    </div>
-  </div>
+    </div>)
 }
