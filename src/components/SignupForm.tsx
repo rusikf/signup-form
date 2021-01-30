@@ -1,17 +1,13 @@
 import React from 'react'
-import { ReactComponent as GoogleLogo } from '../images/google-logo.svg'
+import { GoogleSignupButton } from './GoogleSignupButton'
+import '../styles/SignupForm.css'
 
 export const SignupForm:React.FC = () => {
   return (
     <div className='signup-form'>
       <div className='signup-form__title'><h1>Sign up</h1></div>
+      <GoogleSignupButton />
       
-      <div className='google-button'>
-        <div className='google-button__icon'>
-          <GoogleLogo />
-        </div>
-        <div className='google-button__text'>Sign up with Google</div>
-      </div>
       <div className='google-hint'><span>or signup with email</span></div>
 
       <form>

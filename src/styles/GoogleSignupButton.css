@@ -1,0 +1,27 @@
+.google-button {
+  margin-left: var(--label-width);
+  display: flex;
+  border-radius: 4px;
+  border: 1px solid var(--light-blue);
+}
+
+.google-button:hover {
+  cursor: pointer;
+}
+
+.google-button__icon {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.google-button__text {
+  font-weight: 600;
+  background: var(--light-blue);
+  color: white;
+  padding: 12px;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+}
