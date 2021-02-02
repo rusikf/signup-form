@@ -44,7 +44,7 @@
   background-color: var(--dark-blue);
 }
 
-.btn-primary_disabled {
+.btn-primary:disabled {
   background-color: var(--lighter-blue);
 }
 
@@ -71,6 +71,10 @@
   width: 100%;
 }
 
+.input-group input:focus {
+  background: #DBDBDB;
+}
+
 .inline-inputs input {
   width: 50%;
 }
@@ -94,46 +98,6 @@
   color: red;
   font-size: 12px;
   opacity: 0.7;
-}
-
-.password-indicator {
-  display: flex;
-  margin-top: 5px;
-  margin-left: var(--label-width)
-}
-
-.password-indicator_block {
-  height: 5px;
-  width: 70px;
-  background: #F7F7F7;
-  border-radius: 4px;
-  flex-basis: 25%;
-  flex-grow: 0;
-  margin-right: 3px;
-}
-
-.password-indicator:last-of-type {
-  margin-right: 0px;
-}
-
-.password-indicator_block-weak {
-  background: #F28C8C;
-}
-
-.password-indicator_block-okay {
-  background: #FFCB7D;
-}
-
-.password-indicator_block-good {
-  background: #5CD1A5;
-}
-
-.password-indicator-hint {
-  display: flex;
-  justify-content: flex-end;
-  font-size: 12px;
-  color: grey;
-  margin: 5px 0px 5px 0px;
 }
 
 .btn {
