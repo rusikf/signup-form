@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/signup-form/static/css/main.744e5457.chunk.css",
+    "main.js": "/signup-form/static/js/main.814a954f.chunk.js",
+    "main.js.map": "/signup-form/static/js/main.814a954f.chunk.js.map",
+    "runtime-main.js": "/signup-form/static/js/runtime-main.2961767e.js",
+    "runtime-main.js.map": "/signup-form/static/js/runtime-main.2961767e.js.map",
+    "static/js/2.e870adef.chunk.js": "/signup-form/static/js/2.e870adef.chunk.js",
+    "static/js/2.e870adef.chunk.js.map": "/signup-form/static/js/2.e870adef.chunk.js.map",
+    "static/js/3.bedcb23f.chunk.js": "/signup-form/static/js/3.bedcb23f.chunk.js",
+    "static/js/3.bedcb23f.chunk.js.map": "/signup-form/static/js/3.bedcb23f.chunk.js.map",
+    "index.html": "/signup-form/index.html",
+    "static/css/main.744e5457.chunk.css.map": "/signup-form/static/css/main.744e5457.chunk.css.map",
+    "static/js/2.e870adef.chunk.js.LICENSE.txt": "/signup-form/static/js/2.e870adef.chunk.js.LICENSE.txt",
+    "static/media/google-logo.1cb403a4.svg": "/signup-form/static/media/google-logo.1cb403a4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2961767e.js",
+    "static/js/2.e870adef.chunk.js",
+    "static/css/main.744e5457.chunk.css",
+    "static/js/main.814a954f.chunk.js"
+  ]
+}
